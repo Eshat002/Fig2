@@ -776,3 +776,28 @@ p.have-on-figland {
     }
 
 }
+
+
+@media screen and (max-width:443.20px) {
+    .login-btn {
+        padding: 10px 16px;
+        margin-left: -20px !important;
+        font-size: 14px;
+    }
+
+    .menu-btn {
+        margin-right: -20px;
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+    .nav-form {
+        display: block !important;
+    }
+
+    .nav-form .email-field,
+    .nav-form .subscribe-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
